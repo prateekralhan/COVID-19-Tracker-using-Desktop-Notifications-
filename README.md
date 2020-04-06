@@ -34,7 +34,7 @@ Simply execute **pip install <package_name>** or **conda install <package_name>*
 * Select the action - **Start a program**, as we just want to execute the code periodically. We can send E-mails , display messages too but these two features will be soon removed after some subsequent patches.
 ![image](https://user-images.githubusercontent.com/29462447/78519100-def17580-77df-11ea-874e-53bb288a673f.png)
 
-* Click on **Browse** to select the ***covid_notify.bat** file. Please note you have to edit the executable batch file by entering the details of your Python Installation Directory as well as the location of storage of your Python script. You can add the paths in the batch file I have attached here.
+* Click on **Browse** to select the ***covid_notify.bat*** file. Please note you have to edit the executable batch file by entering the details of your Python Installation Directory as well as the location of storage of your Python script. You can add the paths in the batch file I have attached here.
 ![image](https://user-images.githubusercontent.com/29462447/78519161-119b6e00-77e0-11ea-9b42-dfd1715a82fa.png)
 
 Finally, click on save to create the Task. Now, completely forget about it !! As you can now receive Desktop Notifications at the time interval set by you. Happy Automation :)

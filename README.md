@@ -16,6 +16,19 @@ Simply execute **pip install <package_name>** or **conda install <package_name>*
 * You can execute the script using Terminal/CMD/Powershell by using command: **python covid_notify.py**
 
 ## Scheduling the script execution:
-1. We won't use anything out of the box. Let us make usage of the ***Windows Task Scheduler** present in our WindowsOS.
+1. We won't use anything out of the box. Let us make usage of the ***Windows Task Scheduler** present in our WindowsOS. 
+2. Just search Windows Task scheduler in the Start Menu and launch the application. Please refer screenshots given below. 
 
+![image](https://user-images.githubusercontent.com/29462447/78518901-5541a800-77df-11ea-88a7-b88aee91761a.png)
 
+![image](https://user-images.githubusercontent.com/29462447/78519033-ab165000-77df-11ea-901a-8adf5d465f95.png)
+
+![image](https://user-images.githubusercontent.com/29462447/78519053-b8333f00-77df-11ea-9265-ad468db55bf4.png)
+
+![image](https://user-images.githubusercontent.com/29462447/78519076-ca14e200-77df-11ea-946b-739697b3d2d0.png)
+
+![image](https://user-images.githubusercontent.com/29462447/78519100-def17580-77df-11ea-874e-53bb288a673f.png)
+
+![image](https://user-images.githubusercontent.com/29462447/78519161-119b6e00-77e0-11ea-9b42-dfd1715a82fa.png)
+
+Finally, click on save to create the Task. Now, completely forget about it !! As you can now receive Desktop Notifications at the time interval set by you. Happy Automation :)

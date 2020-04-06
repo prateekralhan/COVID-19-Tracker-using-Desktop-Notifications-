@@ -19,16 +19,24 @@ Simply execute **pip install <package_name>** or **conda install <package_name>*
 1. We won't use anything out of the box. Let us make usage of the ***Windows Task Scheduler** present in our WindowsOS. 
 2. Just search Windows Task scheduler in the Start Menu and launch the application. Please refer screenshots given below. 
 
+* Select **Create Basic Task** option.
 ![image](https://user-images.githubusercontent.com/29462447/78518901-5541a800-77df-11ea-88a7-b88aee91761a.png)
 
+* Enter the name of the task and suitable description, I took it as COVID 19 Tracker INDIA.
 ![image](https://user-images.githubusercontent.com/29462447/78519033-ab165000-77df-11ea-901a-8adf5d465f95.png)
 
+* Set the frequency for task execution, i.e daily,weekly,monthly etc.
 ![image](https://user-images.githubusercontent.com/29462447/78519053-b8333f00-77df-11ea-9265-ad468db55bf4.png)
 
+* Set the time interval(s), since I want to execute our script daily.
 ![image](https://user-images.githubusercontent.com/29462447/78519076-ca14e200-77df-11ea-946b-739697b3d2d0.png)
 
+* Select the action - **Start a program**, as we just want to execute the code periodically. We can send E-mails , display messages too but these two features will be soon removed after some subsequent patches.
 ![image](https://user-images.githubusercontent.com/29462447/78519100-def17580-77df-11ea-874e-53bb288a673f.png)
 
+* Click on **Browse** to select the ***covid_notify.bat** file. Please note you have to edit the executable batch file by entering the details of your Python Installation Directory as well as the location of storage of your Python script. You can add the paths in the batch file I have attached here.
 ![image](https://user-images.githubusercontent.com/29462447/78519161-119b6e00-77e0-11ea-9b42-dfd1715a82fa.png)
 
 Finally, click on save to create the Task. Now, completely forget about it !! As you can now receive Desktop Notifications at the time interval set by you. Happy Automation :)
+
+![image](https://user-images.githubusercontent.com/29462447/78519896-4dcfce00-77e2-11ea-873d-749b88b00922.png)

@@ -1,4 +1,4 @@
-# COVID-19 Tracker using Desktop Notifications
+# COVID-19 Tracker using Desktop Notifications [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![](https://img.shields.io/badge/Prateek-Ralhan-brightgreen.svg?colorB=ff0000)](https://prateekralhan.github.io/)
 Instead of manually navigating to the Website everytime to get the current status of the COVID 19 cases in India, I created this automated python script which can be easily executed to receive notifications for the COVID 19 Cases on your Desktop whenever you want.
 
 Note: 
